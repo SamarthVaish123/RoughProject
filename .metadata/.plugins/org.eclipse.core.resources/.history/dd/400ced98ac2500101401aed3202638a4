@@ -1,0 +1,50 @@
+package xyz;
+
+public class test {
+	
+	public static void  main(String[] args)
+	{
+		
+		/*
+		 * "listen", "silent"
+"hello", "world"
+		 * */
+		String s1="listen";
+		String s2="silent";
+		char c1[] = s1.toCharArray();
+		char c2[] = s12.toCharArray();
+		
+		for(int i=0;i<c1.length;i++)
+			{
+				a[97-c[i]]++;
+				
+			}
+		
+		
+		
+		
+//		char c[] =s.toCharArray();
+//		int a[] = new int[26];
+//		for(int i=0;i<c.length;i++)
+//		{
+//			a[97-c[i]]++;
+//			
+//		}
+//		
+//		String ans="";
+//		
+//		for(int i=0;i<c.length;i++)
+//		{
+//			ans+=c[i];
+//			
+//		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

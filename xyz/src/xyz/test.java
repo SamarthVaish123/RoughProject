@@ -1,0 +1,64 @@
+package xyz;
+
+public class test {
+	
+	public static void  main(String[] args)
+	{
+		
+		/*
+		 * "listen", "silent"
+"hello", "world"
+		 * */
+		String s1="listen";
+		String s2="siltnt";
+		char c1[] = s1.toCharArray();
+		char c2[] = s2.toCharArray();
+		int a1[] = new int[26];
+		int a2[] = new int[26];
+		
+		for(int i=0;i<c1.length;i++)
+			{
+				a1[c1[i]-97]++;
+				
+			}
+		
+		for(int i=0;i<c2.length;i++)
+		{
+			a2[c2[i]-97]++;
+			
+		}
+		
+//		for(int x : a1)
+//		{
+//			
+//			System.out.println(x);
+//		}
+//		System.out.println("xxxxxxxxxxxxxxxxxx");
+//		for(int x : a2)
+//		{
+//			
+//			System.out.println(x);
+//		}
+//		
+		for(int i=0;i<26;i++)
+		{
+			if(a1[i]!=a2[i])
+			{
+				System.out.println("false");
+			}
+			
+			
+		}
+		
+		
+		
+
+		
+		
+		
+		
+	}
+	
+
+
+}
