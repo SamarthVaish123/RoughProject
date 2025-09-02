@@ -4,7 +4,7 @@ public class test {
 	
 	public static void  main(String[] args)
 	{
-		
+		//adding some comment
 		/*
 		 * "listen", "silent"
 "hello", "world"
