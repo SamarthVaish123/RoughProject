@@ -4,8 +4,14 @@ public class test {
 	
 	public static void  main(String[] args)
 	{
-		
+
 		/*helllllllllllllll
+
+		//adding some comment
+		//hello
+		//hello2
+		/*
+
 		 * "listen", "silent"
 "hello", "world"
 		 * */
